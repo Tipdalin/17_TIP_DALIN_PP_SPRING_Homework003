@@ -1,4 +1,15 @@
 package com.example.restapi_exception.model.dto.response;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class EventResponse {
+    private Integer eventId;
+    private String eventName;
+    private String eventDate;
+    private Integer venueId;
 }
